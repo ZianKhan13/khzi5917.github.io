@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+:visited{
+    color: coral;
+}
+body{
+    color: blanchedalmond;
+    background-color: darkslategray;
+    text-align:center;
+}
+
+/* Weather App CSS */
+
+
+/* Responsive */
+@media screen and (min-width:750px){
+    header, footer {
+        text-align: center;
+    }
+    a {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:749px){
+    h1 {
+        font-size: 75px;
+        line-height: 0.9;
+        margin-bottom: 20px;
+    }
+    h2 {
+        line-height: 1;
+    }
+    a {
+        padding: 5px;
+    }
+}
