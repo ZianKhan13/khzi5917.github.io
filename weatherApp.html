@@ -3,47 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>CS 355 Home Page</title>
-    <!--<link rel="stylesheet" href="styles.css">-->
+    <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="weatherApp.js"></script>
-    <style>
-        .container{
-            max-width: 550px;
-            height: 100vh;
-            border: 1px solid black;
-            margin: 0 auto;
-            display: grid;
-            grid-template-rows: 20% 80%;
-            text-align: center;
-            background-color: peachpuff;
-        }
-        h1, h2, h3, span {
-            margin: 0;
-        }
-        h1 {
-            font-size: 16rem;
-        }
-        h2 {
-            font-size: 3rem;
-            padding-top: .5rem;
-        }
-        h3 {
-            font-size: 1.4rem;
-        }
-        span {
-            font-size: 6rem;
-        }
-        .degrees{
-            display: grid;
-            grid-template-columns: auto auto;
-            justify-content: center;
-            margin-left: 2rem;
-        }
-    </style>
 
 </head>
 
-<body style="background-color: darkslategray">
+<body>
+    <header>
+        <h1>This is my home page for CS 355</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="weatherApp.html">Weather App</a>
+        </nav>
+    </header>
     <div class="container">
         <h2 id="city"></h2>
         <div class="middle">
