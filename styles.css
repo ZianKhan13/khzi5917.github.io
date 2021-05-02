@@ -1,3 +1,10 @@
+/*Color Pallet
+lightsalmon - #FFA07A - rgb(255,160,122)
+black - #000000 - rgb(0,0,0)
+wheat - #F5DEB3 - rgb(245,222,179)
+ */
+
+/*Global */
 html {
     box-sizing: border-box;
 }
@@ -5,10 +12,9 @@ html {
     box-sizing: inherit;
 }
 :visited{
-    color: coral;
+    color: white;
 }
 header {
-    background-color: black;
     overflow: hidden;
 }
 header a  {
@@ -20,9 +26,17 @@ header a  {
     font-size: 17px;
 }
 body{
-    color: blanchedalmond;
-    background-color: darkslategray;
+    color: black;
+    background-color: wheat;
     text-align:center;
+
+}
+/*NavBar*/
+.nav{
+    background-color: black;
+}
+span.navbar-toggler-icon {
+    background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
 }
 
 /* Weather App CSS */
@@ -34,7 +48,7 @@ body{
     display: grid;
     grid-template-rows: 20% 80%;
     text-align: center;
-    background-color: peachpuff;
+    background-color: wheat;
     color: black;
 }
 .container h1, h2, h3, span {
