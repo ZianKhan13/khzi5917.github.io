@@ -91,7 +91,7 @@ main a{
     /*    justify-content: center;*/
     /*}*/
 }
-@media screen and (max-width:749px){
+@media screen and (min-width: 416px) and (max-width:749px){
     h1 {
         font-size: 75px;
         line-height: 0.9;
@@ -117,6 +117,9 @@ main a{
     }
     #aboutMe{
         padding-top: 20px;
+    }
+    h3 {
+        line-height: 0.9;
     }
 }
 /*@media screen and (width: 375px) and (height: 812px) {*/
