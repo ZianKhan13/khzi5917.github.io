@@ -27,14 +27,17 @@ header a  {
 }
 body{
     color: black;
-    background-color: wheat;
+    background-color: #5F9EA0;
 }
 /*NavBar*/
 .nav{
-    background-color: black;
+    background-color: white;
 }
 span.navbar-toggler-icon {
     background-image: url('https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000');
+}
+#pLabel{
+    margin-left: auto;
 }
 main a{
     text-align: left;
